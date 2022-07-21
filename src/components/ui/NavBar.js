@@ -28,21 +28,21 @@ export const NavBar = () => {
         <Link to="/" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 className="m-0 text-primary"><i className="fa fa-book me-3"></i>Mindfulness</h2>
         </Link>
-        <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="/navbarCollapse">
+        <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
                 <Link to="/" className="nav-item nav-link active">Home</Link>
-                <Link to="about" className="nav-item nav-link">Sobre mi</Link>
-                <Link to="cursos" className="nav-item nav-link">Cursos</Link>
+                <Link to="/about" className="nav-item nav-link">Sobre mi</Link>
+                <Link to="/cursos" className="nav-item nav-link">Cursos</Link>
                 <div className="nav-item dropdown">
-                    <Link to="quees" className="nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mindfulness</Link>
+                    <Link to="/quees" className="nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mindfulness</Link>
                     <div className="dropdown-menu fade-down m-0">
-                        <Link to="quees" className="dropdown-item">¿Que es?</Link>
+                        <Link to="/quees" className="dropdown-item">¿Que es?</Link>
                     </div>
                 </div>
-                <Link to="contacto" className="nav-item nav-link">Contacto</Link>
+                <Link to="/contacto" className="nav-item nav-link">Contacto</Link>
             </div>
 
             {user.logged ?

@@ -1,9 +1,10 @@
 import React from 'react';
+import { Header } from '../ui/Header';
 
 export const Courses = () => {
   return (
     <>
-        <AboutTitle
+        <Header
             title = {"Cursos"}
             subtitle = {"Cursos"}
         />

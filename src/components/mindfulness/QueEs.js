@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutTitle } from '../about/AboutTitle'
+import { Header } from '../ui/Header'
 import { QueEsPartes } from './QueEsPartes'
 
 export const QueEs = () => {
@@ -7,7 +7,7 @@ export const QueEs = () => {
     <>
         
 
-        <AboutTitle 
+        <Header 
             title={"Mindfulness"}
             subtitle={"¿Que es?"}
         />

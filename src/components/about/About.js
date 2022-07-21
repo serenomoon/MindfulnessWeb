@@ -1,14 +1,13 @@
 import React from 'react'
 import { Footer } from '../home/Footer'
-import { NavBar } from '../ui/NavBar'
+import { Header } from '../ui/Header'
 import { AboutOne } from './AboutOne'
-import { AboutTitle } from './AboutTitle'
 
 export const About = () => {
   return (<>
 
    
-    <AboutTitle 
+    <Header 
         title = {"Sobre mi"}
         subtitle = {"Sobre mi"}
     />

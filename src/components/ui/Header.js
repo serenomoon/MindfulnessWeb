@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-export const AboutTitle = ({title,subtitle}) => {
+export const Header = ({title,subtitle}) => {
   return (
     <div className="container-fluid bg-primary py-5 mb-5 page-header">
         <div className="container py-5">

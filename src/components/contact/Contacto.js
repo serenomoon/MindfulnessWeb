@@ -1,10 +1,10 @@
 import React from 'react';
-import { AboutTitle } from '../about/AboutTitle';
+import { Header } from '../ui/Header';
 
 export const Contacto = () => {
   return (
     <>
-        <AboutTitle
+        <Header
             title = {"Contacto"}
             subtitle = {"Contacto"}
         />
